@@ -14,8 +14,7 @@ public abstract class BaseHero {
     protected static Random r;
 
     /** Конструктор который отвечает за инициализацию */
-    public BaseHero(String hero, String name, int health, int attack, int speed, int maxDamage, int minDamage,
-            int protection) {
+    public BaseHero(String hero, String name, int health, int attack, int speed, int maxDamage, int minDamage, int protection) {
         this.hero = hero;
         this.name = name;
         this.health = health;

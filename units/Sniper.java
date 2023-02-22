@@ -4,7 +4,7 @@ package units;
 public class Sniper extends Shooter {
 
     public Sniper(){
-        super("Sniper____", "Eagle", 15, 9, 10, 8, 12, 10, 32);
+        super("Sniper____", "Eagle", 15, 12, 9, 10, 8, 10, 32);
              
     }
 

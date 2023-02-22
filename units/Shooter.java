@@ -3,8 +3,8 @@ package units;
 public class Shooter extends BaseHero{
     int shoot;
     
-        public Shooter(String hero, String name, int health, int speed, int maxDamage, int minDamage, int attack, int protection, int shoot) {
-            super(hero, name, health, speed, maxDamage, minDamage, attack, protection);
+        public Shooter(String hero, String name, int health, int attack, int speed, int maxDamage, int minDamage,int protection, int shoot) {
+            super(hero, name, health, attack, speed, maxDamage, minDamage, protection);
             this.shoot = shoot;
     
         }

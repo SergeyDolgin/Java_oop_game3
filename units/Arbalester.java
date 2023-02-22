@@ -3,7 +3,7 @@ package units;
 public class Arbalester extends Shooter {
 
     public Arbalester(){
-        super("Arbalester", "Mikle", 10, 4, 3, 2, 6, 
+        super("Arbalester", "Mikle", 10, 6, 4, 3, 2, 
         3, 16);    
     }
 
